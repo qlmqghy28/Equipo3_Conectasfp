@@ -1,0 +1,75 @@
+        body {
+            background-color: #ffe4ec;
+            font-size: 16px;
+            margin: 0;
+            color: black;
+        }
+        header {
+            background-color: #ff8fab;
+            color: black;
+            text-align: center;
+            padding: 20px;
+            border: 2px solid #ff5d8f;
+        }
+        nav {
+            background-color: #ffc2d1;
+            text-align: center;
+            padding: 10px;
+            border: 1px solid #ff8fab;
+        }
+        h2 {
+            color: black;
+            font-size: 20px;
+            text-align: center;
+        }
+        p, li {
+            color: black;
+            font-size: 16px;
+            text-align: left;
+        }
+        footer {
+            background-color: #ff8fab;
+            color: black;
+            text-align: center;
+            padding: 10px;
+            margin: 20px 0 0 0;
+            font-size: 14px;
+        }
+        img {
+            border: 2px solid #ff8fab;
+            margin: 10px;
+        }
+        nav a {
+            color: black;
+            text-decoration: none;
+            font-size: 16px;
+            margin: 10px;
+            padding: 5px;
+        }
+        nav a:hover {
+            background-color: #ff5d8f;
+            color: black;
+            text-decoration: underline;
+        }
+        /* 3 clases */
+        .cajita {
+            background-color: #ffe4ec;
+            border: 1px solid #ff8fab;
+            padding: 15px;
+            margin: 15px;
+        }
+        .rosa-fuerte {
+            background-color: #ffb3c6;
+            color: black;
+            border: 1px solid #ff5d8f;
+            font-size: 15px;
+        }
+        .servi {
+            background-color: transparent;
+            border-bottom: 2px solid #ff5d8f;
+            padding: 10px;
+            margin: 10px 15px;
+            text-align: left;
+            font-size: 16px;
+            color: black;
+        }
