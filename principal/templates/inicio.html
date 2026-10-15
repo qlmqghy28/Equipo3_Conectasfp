@@ -1,54 +1,84 @@
-{%load static%}
-
+{% load static %}
 <!DOCTYPE html>
-<html loang="es">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Trabajo viajero</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONECTADOSF | Portal de empleo</title>
 
     <link rel="stylesheet" href="{% static 'estilos.css' %}">
 </head>
 <body>
-    <header>
-        <h1>trabajo</h1>
-        <p>Portal de avisos para todos los trabajadores</p>
+
+    <header class="encabezado">
+        <a href="#inicio" class="logo">CONECTADOS<span>SF</span></a>
+        <p>Conectamos tu talento con nuevas oportunidades</p>
     </header>
 
-    <nav>
-        <a href="#">Inicio</a>
-        <a href="#">Avisos</a>
-        <a href="#">Trabajos</a>
-        <a href="#">Horarios</a>
-        <a href="#"></a>
-    </nav>
+    <!-- El menú será integrado por Eimi -->
 
     <main>
-        <section class="cajita">
-            <h2>Bienvenidos!</h2>
-            <p>Hola como estas aqui puedes ver todo lo importante.</p>
-    
+        <section class="portada" id="inicio">
+            <div class="portada-texto">
+                <span class="etiqueta">TU FUTURO COMIENZA AQUÍ</span>
+                <h1>Encuentra el trabajo que estás buscando</h1>
+                <p>
+                    Explora oportunidades laborales, conoce empresas
+                    y encuentra un empleo que se adapte a ti.
+                </p>
+                <a href="#vacantes" class="boton-principal">
+                    Consultar vacantes
+                </a>
+            </div>
+
+            <div class="espacio-imagen">
+            <img src="https://static.vecteezy.com/system/resources/previews/010/442/458/non_2x/search-job-of-people-online-find-vacancy-employment-go-to-career-of-hire-people-seek-opportunity-for-vacancy-or-work-position-search-new-work-in-internet-illustration-vector.jpg" style="width: 320px; height: auto; border-radius: 12px;">
+                </div>
+            </div>
         </section>
 
-        <section class="cajita">
-            <h2>Avisos de la semana</h2>
-            <ul>
-                <li>Entrega de papeleo.</li>
-                <li>Documentacion completa</li>
-                <li>Trabajos altos.</li>
-                <li>Empresas contratando.</li>
-            </ul>
+        <section class="seccion" id="vacantes">
+            <div class="titulo-seccion">
+                <span class="etiqueta">OPORTUNIDADES</span>
+                <h2>Encuentra tu próximo empleo</h2>
+                <p>Conoce las áreas laborales que puedes explorar.</p>
+            </div>
+
+            <div class="tarjetas">
+                <article class="tarjeta">
+                    <div class="icono"></div>
+                    <h3>Reparto y transporte</h3>
+                    <p>Oportunidades para repartidores y conductores.</p>
+                </article>
+
+                <article class="tarjeta">
+                    <div class="icono"></div>
+                    <h3>Administración</h3>
+                    <p>Vacantes en oficinas y empresas.</p>
+                </article>
+
+                <article class="tarjeta">
+                    <div class="icono"></div>
+                    <h3>Oficios y servicios</h3>
+                    <p>Opciones para diferentes habilidades y experiencia.</p>
+                </article>
+            </div>
         </section>
 
-        <section>
-            <h2>Tipos de trabajo</h2>
-            <p class="servi">Repartidor de muebleria </p>
-            <p class="servi">Empresarios </p>
-            <p class="servi">Trailero </p>
+        <section class="aviso" id="avisos">
+            <div>
+                <span class="etiqueta">MANTENTE INFORMADO</span>
+                <h2>Avisos importantes</h2>
+                <p>Consulta los requisitos y la información de cada vacante.</p>
+            </div>
+            <a href="#vacantes" class="boton-secundario">Ver oportunidades</a>
         </section>
     </main>
 
-    <footer>
-        <p>Portal de empleo 2026</p>
+    <footer id="contacto">
+        <a href="#inicio" class="logo">CONECTADOS<span>SF</span></a>
+        <p>Portal de empleo · 2026</p>
     </footer>
+
 </body>
 </html>
